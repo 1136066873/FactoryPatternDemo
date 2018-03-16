@@ -4,14 +4,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-
 import com.heguodong.demo.abstractfactory.FactoryBMW320;
 import com.heguodong.demo.abstractfactory.FactoryBMW523;
 import com.heguodong.demo.factorymethod.BMW320factory;
 import com.heguodong.demo.factorymethod.BMW523factory;
 import com.heguodong.demo.simplefactory.BMWfactorysimple;
-import com.heguodong.demo.simplefactory.BMW320simple;
-import com.heguodong.demo.simplefactory.BMW523simple;
+
+/**
+ *http://blog.csdn.net/jason0539/article/details/23020989
+ */
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     public static String TAG = "heguodong";
